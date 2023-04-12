@@ -1,0 +1,54 @@
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      auth:
+        driverClassName: com.mysql.jdbc.Driver
+        username: root
+        password: plgrk944
+        url: jdbc:mysql://localhost:3306/acore_auth?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+      characters:
+        driverClassName: com.mysql.jdbc.Driver
+        username: root
+        password: plgrk944
+        url: jdbc:mysql://localhost:3306/acore_characters?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+      world:
+        driverClassName: com.mysql.jdbc.Driver
+        username: root
+        password: plgrk944
+        url: jdbc:mysql://localhost:3306/acore_world?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+  redis:
+    host: localhost # Redis服务器地址
+    database: 0 # Redis数据库索引（默认为0）
+    port: 6379 # Redis服务器连接端口
+    password: # Redis服务器连接密码（默认为空）
+    timeout: 3000ms # 连接超时时间（毫秒）
+
+swagger2:
+  host: 'localhost:8080'
+
+logging:
+  level:
+    root: info
+    com.byd: info
+
+byd:
+  wms:
+    protocol: http
+    domain: 172.16.200.100
+    port: 9192
+    username: test
+    password: 123456
+    # 入库指令对应的坐标，目前无法设置别名，只能写死
+    stock-position: 045972AA105054 #047427AA127615
+  rcms:
+    protocol: http
+    domain: 172.16.200.100
+    port: 8182
+  material:
+    geban: test
+  debug:
+    # 最一个工位的ID = stationId * 10 + processIndex
+    # OP102 = 10004  OP30=10008 OP40=10009 OP50=10010
+    # OP60=10011 OP70=10012 OP80=10013 OP90=10014 OP100-3=10017 OP110=10018  OP120=100191
+    last-station: 100131

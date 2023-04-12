@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="me.tutu.wow.editor.db.world.mapper.CreatureMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="me.tutu.wow.editor.db.world.model.Creature">
+        <id column="guid" property="guid" />
+        <result column="id1" property="id1" />
+        <result column="id2" property="id2" />
+        <result column="id3" property="id3" />
+        <result column="map" property="map" />
+        <result column="zoneId" property="zoneid" />
+        <result column="areaId" property="areaid" />
+        <result column="spawnMask" property="spawnmask" />
+        <result column="phaseMask" property="phasemask" />
+        <result column="equipment_id" property="equipmentId" />
+        <result column="position_x" property="positionX" />
+        <result column="position_y" property="positionY" />
+        <result column="position_z" property="positionZ" />
+        <result column="orientation" property="orientation" />
+        <result column="spawntimesecs" property="spawntimesecs" />
+        <result column="wander_distance" property="wanderDistance" />
+        <result column="currentwaypoint" property="currentwaypoint" />
+        <result column="curhealth" property="curhealth" />
+        <result column="curmana" property="curmana" />
+        <result column="MovementType" property="movementtype" />
+        <result column="npcflag" property="npcflag" />
+        <result column="unit_flags" property="unitFlags" />
+        <result column="dynamicflags" property="dynamicflags" />
+        <result column="ScriptName" property="scriptname" />
+        <result column="VerifiedBuild" property="verifiedbuild" />
+    </resultMap>
+
+</mapper>

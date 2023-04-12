@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="me.tutu.wow.editor.db.auth.mapper.RealmlistMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="me.tutu.wow.editor.db.auth.model.Realmlist">
+        <id column="id" property="id" />
+        <result column="name" property="name" />
+        <result column="address" property="address" />
+        <result column="localAddress" property="localaddress" />
+        <result column="localSubnetMask" property="localsubnetmask" />
+        <result column="port" property="port" />
+        <result column="icon" property="icon" />
+        <result column="flag" property="flag" />
+        <result column="timezone" property="timezone" />
+        <result column="allowedSecurityLevel" property="allowedsecuritylevel" />
+        <result column="population" property="population" />
+        <result column="gamebuild" property="gamebuild" />
+    </resultMap>
+
+</mapper>

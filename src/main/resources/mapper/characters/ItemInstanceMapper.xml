@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="me.tutu.wow.editor.db.characters.mapper.ItemInstanceMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="me.tutu.wow.editor.db.characters.model.ItemInstance">
+        <id column="guid" property="guid" />
+        <result column="itemEntry" property="itementry" />
+        <result column="owner_guid" property="ownerGuid" />
+        <result column="creatorGuid" property="creatorguid" />
+        <result column="giftCreatorGuid" property="giftcreatorguid" />
+        <result column="count" property="count" />
+        <result column="duration" property="duration" />
+        <result column="charges" property="charges" />
+        <result column="flags" property="flags" />
+        <result column="enchantments" property="enchantments" />
+        <result column="randomPropertyId" property="randompropertyid" />
+        <result column="durability" property="durability" />
+        <result column="playedTime" property="playedtime" />
+        <result column="text" property="text" />
+    </resultMap>
+
+</mapper>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="me.tutu.wow.editor.db.world.mapper.CreatureTemplateMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="me.tutu.wow.editor.db.world.model.CreatureTemplate">
+        <id column="entry" property="entry" />
+        <result column="difficulty_entry_1" property="difficultyEntry1" />
+        <result column="difficulty_entry_2" property="difficultyEntry2" />
+        <result column="difficulty_entry_3" property="difficultyEntry3" />
+        <result column="KillCredit1" property="killcredit1" />
+        <result column="KillCredit2" property="killcredit2" />
+        <result column="modelid1" property="modelid1" />
+        <result column="modelid2" property="modelid2" />
+        <result column="modelid3" property="modelid3" />
+        <result column="modelid4" property="modelid4" />
+        <result column="name" property="name" />
+        <result column="subname" property="subname" />
+        <result column="IconName" property="iconname" />
+        <result column="gossip_menu_id" property="gossipMenuId" />
+        <result column="minlevel" property="minlevel" />
+        <result column="maxlevel" property="maxlevel" />
+        <result column="exp" property="exp" />
+        <result column="faction" property="faction" />
+        <result column="npcflag" property="npcflag" />
+        <result column="speed_walk" property="speedWalk" />
+        <result column="speed_run" property="speedRun" />
+        <result column="speed_swim" property="speedSwim" />
+        <result column="speed_flight" property="speedFlight" />
+        <result column="detection_range" property="detectionRange" />
+        <result column="scale" property="scale" />
+        <result column="rank" property="rank" />
+        <result column="dmgschool" property="dmgschool" />
+        <result column="DamageModifier" property="damagemodifier" />
+        <result column="BaseAttackTime" property="baseattacktime" />
+        <result column="RangeAttackTime" property="rangeattacktime" />
+        <result column="BaseVariance" property="basevariance" />
+        <result column="RangeVariance" property="rangevariance" />
+        <result column="unit_class" property="unitClass" />
+        <result column="unit_flags" property="unitFlags" />
+        <result column="unit_flags2" property="unitFlags2" />
+        <result column="dynamicflags" property="dynamicflags" />
+        <result column="family" property="family" />
+        <result column="trainer_type" property="trainerType" />
+        <result column="trainer_spell" property="trainerSpell" />
+        <result column="trainer_class" property="trainerClass" />
+        <result column="trainer_race" property="trainerRace" />
+        <result column="type" property="type" />
+        <result column="type_flags" property="typeFlags" />
+        <result column="lootid" property="lootid" />
+        <result column="pickpocketloot" property="pickpocketloot" />
+        <result column="skinloot" property="skinloot" />
+        <result column="PetSpellDataId" property="petspelldataid" />
+        <result column="VehicleId" property="vehicleid" />
+        <result column="mingold" property="mingold" />
+        <result column="maxgold" property="maxgold" />
+        <result column="AIName" property="ainame" />
+        <result column="MovementType" property="movementtype" />
+        <result column="HoverHeight" property="hoverheight" />
+        <result column="HealthModifier" property="healthmodifier" />
+        <result column="ManaModifier" property="manamodifier" />
+        <result column="ArmorModifier" property="armormodifier" />
+        <result column="ExperienceModifier" property="experiencemodifier" />
+        <result column="RacialLeader" property="racialleader" />
+        <result column="movementId" property="movementid" />
+        <result column="RegenHealth" property="regenhealth" />
+        <result column="mechanic_immune_mask" property="mechanicImmuneMask" />
+        <result column="spell_school_immune_mask" property="spellSchoolImmuneMask" />
+        <result column="flags_extra" property="flagsExtra" />
+        <result column="ScriptName" property="scriptname" />
+        <result column="VerifiedBuild" property="verifiedbuild" />
+    </resultMap>
+
+</mapper>

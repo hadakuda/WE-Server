@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="me.tutu.wow.editor.db.characters.mapper.CharactersMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="me.tutu.wow.editor.db.characters.model.Characters">
+        <id column="guid" property="guid" />
+        <result column="account" property="account" />
+        <result column="name" property="name" />
+        <result column="race" property="race" />
+        <result column="class" property="class" />
+        <result column="gender" property="gender" />
+        <result column="level" property="level" />
+        <result column="xp" property="xp" />
+        <result column="money" property="money" />
+        <result column="skin" property="skin" />
+        <result column="face" property="face" />
+        <result column="hairStyle" property="hairstyle" />
+        <result column="hairColor" property="haircolor" />
+        <result column="facialStyle" property="facialstyle" />
+        <result column="bankSlots" property="bankslots" />
+        <result column="restState" property="reststate" />
+        <result column="playerFlags" property="playerflags" />
+        <result column="position_x" property="positionX" />
+        <result column="position_y" property="positionY" />
+        <result column="position_z" property="positionZ" />
+        <result column="map" property="map" />
+        <result column="instance_id" property="instanceId" />
+        <result column="instance_mode_mask" property="instanceModeMask" />
+        <result column="orientation" property="orientation" />
+        <result column="taximask" property="taximask" />
+        <result column="online" property="online" />
+        <result column="cinematic" property="cinematic" />
+        <result column="totaltime" property="totaltime" />
+        <result column="leveltime" property="leveltime" />
+        <result column="logout_time" property="logoutTime" />
+        <result column="is_logout_resting" property="isLogoutResting" />
+        <result column="rest_bonus" property="restBonus" />
+        <result column="resettalents_cost" property="resettalentsCost" />
+        <result column="resettalents_time" property="resettalentsTime" />
+        <result column="trans_x" property="transX" />
+        <result column="trans_y" property="transY" />
+        <result column="trans_z" property="transZ" />
+        <result column="trans_o" property="transO" />
+        <result column="transguid" property="transguid" />
+        <result column="extra_flags" property="extraFlags" />
+        <result column="stable_slots" property="stableSlots" />
+        <result column="at_login" property="atLogin" />
+        <result column="zone" property="zone" />
+        <result column="death_expire_time" property="deathExpireTime" />
+        <result column="taxi_path" property="taxiPath" />
+        <result column="arenaPoints" property="arenapoints" />
+        <result column="totalHonorPoints" property="totalhonorpoints" />
+        <result column="todayHonorPoints" property="todayhonorpoints" />
+        <result column="yesterdayHonorPoints" property="yesterdayhonorpoints" />
+        <result column="totalKills" property="totalkills" />
+        <result column="todayKills" property="todaykills" />
+        <result column="yesterdayKills" property="yesterdaykills" />
+        <result column="chosenTitle" property="chosentitle" />
+        <result column="knownCurrencies" property="knowncurrencies" />
+        <result column="watchedFaction" property="watchedfaction" />
+        <result column="drunk" property="drunk" />
+        <result column="health" property="health" />
+        <result column="power1" property="power1" />
+        <result column="power2" property="power2" />
+        <result column="power3" property="power3" />
+        <result column="power4" property="power4" />
+        <result column="power5" property="power5" />
+        <result column="power6" property="power6" />
+        <result column="power7" property="power7" />
+        <result column="latency" property="latency" />
+        <result column="talentGroupsCount" property="talentgroupscount" />
+        <result column="activeTalentGroup" property="activetalentgroup" />
+        <result column="exploredZones" property="exploredzones" />
+        <result column="equipmentCache" property="equipmentcache" />
+        <result column="ammoId" property="ammoid" />
+        <result column="knownTitles" property="knowntitles" />
+        <result column="actionBars" property="actionbars" />
+        <result column="grantableLevels" property="grantablelevels" />
+        <result column="order" property="order" />
+        <result column="creation_date" property="creationDate" />
+        <result column="deleteInfos_Account" property="deleteinfosAccount" />
+        <result column="deleteInfos_Name" property="deleteinfosName" />
+        <result column="deleteDate" property="deletedate" />
+        <result column="innTriggerId" property="inntriggerid" />
+    </resultMap>
+
+</mapper>

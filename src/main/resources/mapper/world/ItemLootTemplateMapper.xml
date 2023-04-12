@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="me.tutu.wow.editor.db.world.mapper.ItemLootTemplateMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="me.tutu.wow.editor.db.world.model.ItemLootTemplate">
+        <id column="Entry" property="entry" />
+        <result column="Item" property="item" />
+        <result column="Reference" property="reference" />
+        <result column="Chance" property="chance" />
+        <result column="QuestRequired" property="questrequired" />
+        <result column="LootMode" property="lootmode" />
+        <result column="GroupId" property="groupid" />
+        <result column="MinCount" property="mincount" />
+        <result column="MaxCount" property="maxcount" />
+        <result column="Comment" property="comment" />
+    </resultMap>
+
+</mapper>

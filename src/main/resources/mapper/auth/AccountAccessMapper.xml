@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="me.tutu.wow.editor.db.auth.mapper.AccountAccessMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="me.tutu.wow.editor.db.auth.model.AccountAccess">
+        <id column="id" property="id" />
+        <result column="gmlevel" property="gmlevel" />
+        <result column="RealmID" property="realmid" />
+        <result column="comment" property="comment" />
+    </resultMap>
+
+</mapper>

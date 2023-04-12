@@ -1,0 +1,21 @@
+server:
+  port: 8089
+spring:
+  application:
+    name: we
+  profiles:
+    active: dev
+  #    active: prod
+
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: Asia/Shanghai
+
+mybatis-plus:
+  mapper-locations: classpath:/mapper/**/*.xml
+  global-config:
+    db-config:
+      id-type: auto
+  configuration:
+    auto-mapping-behavior: partial
+    map-underscore-to-camel-case: true
